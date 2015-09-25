@@ -1,0 +1,29 @@
+版本更新的迁移步骤: 
+1.解压新版本到某文件夹
+2.将旧版本文件夹中的zogvm.db 拷贝(覆盖)到新版本文件夹的zogvm.exe同目录下。
+3.运行新版本文件夹中的exe即可。 
+
+
+程序仅生成zogvm.db文件，建索引生成的，务必保存.
+各版本兼容，请务必备份，并且可以用sqlite软件打开来防止万一。 
+
+=====================================
+文件结构
+\zogvm\MediaInfo.dll	--------媒体信息库
+\zogvm\librhash.dll	--------计算HASH效验库
+\zogvm\sqlite3.dll	--------SQLite库
+\zogvm\zogvm.db		--------生成的索引数据* (拷贝旧版的这个到新版里)
+\zogvm\zogvm.exe	--------主程序
+
+\zogvm\externdb\lyw.db	--------蓝影网数据*
+\zogvm\externdb\mvg.db	--------MVGROUP数据*
+\zogvm\externdb\ngc.db	--------国家地理探索频道数据*
+\zogvm\externdb\nhk.db	--------NHK数据*
+\zogvm\externdb\yyets.db--------人人数据*
+=========================================
+带*号的都可以使用SQLiteSpy第三方工具打开。
+
+
+
+扩展库数据仅供学习，不得使用于商业等其他用途。
+对于其导致的任何情况，作者概不负责。
