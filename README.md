@@ -20,11 +20,15 @@
 ###更多功能，有待您的探索~
 ##警告：该版本（2.X）的索引数据（zogvm.db）与扩展库，将不向下（1.X）兼容，请勿互相迁移。
 
- ![image](https://github.com/zogvm/zogvm/raw/master/next.png)
+##2.0新版
+ ![image](https://github.com/zogvm/zogvm/raw/master/zogvm2/%E8%AF%B4%E6%98%8E/%E5%BB%BA%E7%B4%A2%E5%BC%95.PNG)
+ ![image](https://github.com/zogvm/zogvm/raw/master/zogvm2/%E8%AF%B4%E6%98%8E/%E6%A3%80%E7%B4%A2.PNG)
+ ![image](https://github.com/zogvm/zogvm/raw/master/zogvm2/%E8%AF%B4%E6%98%8E/%E6%89%A9%E5%B1%95%E5%BA%93%E4%B8%8E%E8%AE%BE%E7%BD%AE.PNG)
 
-![image](https://github.com/zogvm/zogvm/raw/master/%E8%AF%B4%E6%98%8E/zogvm%E8%AF%B4%E6%98%8E-%E7%AC%AC1%E6%AD%A5-%E5%BB%BA%E7%B4%A2%E5%BC%95.PNG)
-![image](https://github.com/zogvm/zogvm/raw/master/%E8%AF%B4%E6%98%8E/zogvm%E8%AF%B4%E6%98%8E-%E7%AC%AC2%E6%AD%A5-%E6%A3%80%E7%B4%A2%E4%B8%8E%E5%AF%BC%E5%87%BA.PNG)
-![image](https://github.com/zogvm/zogvm/raw/master/%E8%AF%B4%E6%98%8E/zogvm%E8%AF%B4%E6%98%8E-%E7%AC%AC3%E6%AD%A5-%E4%B8%8B%E5%AD%97%E5%B9%95%E4%B8%8E%E6%89%A9%E5%B1%95%E5%BA%93.PNG)
+##1.22 最终版
+![image](https://github.com/zogvm/zogvm/raw/master/zogvm1.22/%E8%AF%B4%E6%98%8E/zogvm%E8%AF%B4%E6%98%8E-%E7%AC%AC1%E6%AD%A5-%E5%BB%BA%E7%B4%A2%E5%BC%95.PNG)
+![image](https://github.com/zogvm/zogvm/raw/master/zogvm1.22/%E8%AF%B4%E6%98%8E/zogvm%E8%AF%B4%E6%98%8E-%E7%AC%AC2%E6%AD%A5-%E6%A3%80%E7%B4%A2%E4%B8%8E%E5%AF%BC%E5%87%BA.PNG)
+![image](https://github.com/zogvm/zogvm/raw/master/zogvm1.22/%E8%AF%B4%E6%98%8E/zogvm%E8%AF%B4%E6%98%8E-%E7%AC%AC3%E6%AD%A5-%E4%B8%8B%E5%AD%97%E5%B9%95%E4%B8%8E%E6%89%A9%E5%B1%95%E5%BA%93.PNG)
 
 ======================================
 
