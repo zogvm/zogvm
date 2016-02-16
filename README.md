@@ -49,6 +49,9 @@ MVG更新到2015.1.7日
 
 
 ##2.0新版
+
+ ![image](https://raw.githubusercontent.com/zogvm/zogvm/master/zogvm2.0.jpg)
+ ![image](https://raw.githubusercontent.com/zogvm/zogvm/master/zogvm2.03.JPG)
  ![image](https://github.com/zogvm/zogvm/raw/master/zogvm2/%E8%AF%B4%E6%98%8E/%E5%BB%BA%E7%B4%A2%E5%BC%95.PNG)
  ![image](https://github.com/zogvm/zogvm/raw/master/zogvm2/%E8%AF%B4%E6%98%8E/%E6%A3%80%E7%B4%A2.PNG)
  ![image](https://github.com/zogvm/zogvm/raw/master/zogvm2/%E8%AF%B4%E6%98%8E/%E6%89%A9%E5%B1%95%E5%BA%93%E4%B8%8E%E8%AE%BE%E7%BD%AE.PNG)
