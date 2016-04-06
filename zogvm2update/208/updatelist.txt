@@ -1,0 +1,2 @@
++	zogvm2.exe	zogvm2.exe
++	version.txt	version
