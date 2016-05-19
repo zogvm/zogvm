@@ -1,5 +1,5 @@
 ###官方发布点   https://github.com/zogvm/zogvm
-###网盘    http://pan.baidu.com/s/1c0uCPl2
+###网盘    http://pan.baidu.com/s/1ge29DAV
 ###网盘    https://yunpan.cn/crzUp3VRtG3vA  访问码9b54
 ###对下一代版本的建议，QQ群：193585959
 
