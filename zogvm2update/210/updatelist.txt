@@ -1,0 +1,3 @@
++	zogvm2.exe	zogvm2.exe
++	version.txt	version
++	libiconv-2.dll	libiconv-2.dll
