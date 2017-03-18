@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9b5f0d59-10a6-46c1-a2dd-6ac7edc1ffca}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1de3597b-acc6-4ccc-af5b-0dcfb69112d8}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8ae10c9b-58e8-4310-b386-b404aa3d4b1a}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base64_codec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGAddEd2k.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGFileType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGHdd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGhdddelete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGMediaInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGrename.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGsoap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGViewEd2k.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGxunleisub.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DLGYYETS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SignalDownload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLiteOperate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="URLencode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zogvm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zogvmDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="zogvm.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base64_codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGAddEd2k.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGFileType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGHdd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGhdddelete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGMediaInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGrename.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGsoap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGViewEd2k.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGxunleisub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLGYYETS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SignalDownload.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteOperate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typedefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="URLencode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="video.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zogvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zogvmDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\audio.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\green.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\green.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\iso.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\null.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\red.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\subs.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\video.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\zogvm.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\zogvm.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

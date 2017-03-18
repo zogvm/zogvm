@@ -1,0 +1,562 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\zogvm.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\zogvm.ico"
+IDI_GREEN               ICON                    "res\\green.ico"
+IDI_NULL                ICON                    "res\\null.ico"
+IDI_RED                 ICON                    "res\\red.ico"
+IDI_AUDIO               ICON                    "res\\audio.ico"
+IDI_ISO                 ICON                    "res\\iso.ico"
+IDI_SUB                 ICON                    "res\\subs.ico"
+IDI_VIDEO               ICON                    "res\\video.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ZOGVM_DIALOG DIALOGEX 0, 0, 536, 373
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "zogvm"
+MENU IDR_MENU
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_SREACH,136,7,269,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "搜索",IDC_BUTTON_FIND,417,7,50,14
+    PUSHBUTTON      "建立索引",IDC_BUTTON_BUILD,7,7,38,14
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,89,252,58
+    PUSHBUTTON      "重复文件",IDC_BUTTON_DOUBLE,49,7,37,14
+    LTEXT           "",IDC_STATIC_INFO,7,271,215,8
+    PUSHBUTTON      "<<",IDC_BUTTON_FIRST,289,269,12,14
+    PUSHBUTTON      "<",IDC_BUTTON_PREVIOUS,315,269,12,14
+    PUSHBUTTON      ">",IDC_BUTTON_NEXT,341,269,12,14
+    PUSHBUTTON      ">>",IDC_BUTTON_LAST,367,269,12,14
+    EDITTEXT        IDC_EDIT_PAGE,415,269,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "第",IDC_STATIC_DI,403,271,9,8
+    PUSHBUTTON      ">",IDC_BUTTON_JUMP,455,267,12,14
+    LTEXT           "页",IDC_STATIC_YE,473,271,9,8
+    PUSHBUTTON      "导出EXECL",IDC_BUTTON_OUTPUTEXECL,471,7,50,14
+    LTEXT           "",IDC_STATIC_MSG,25,323,215,8
+    CONTROL         "视频",IDC_CHECK_VIDEO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,201,28,32,10
+    CONTROL         "音频",IDC_CHECK_AUDIO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,235,28,32,10
+    CONTROL         "字幕",IDC_CHECK_SUB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,269,28,32,10
+    CONTROL         "其他",IDC_CHECK_OTHER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,303,28,32,10
+    PUSHBUTTON      "垃圾文件",IDC_BUTTON_TRASH,91,7,37,14
+    PUSHBUTTON      "一键清理",IDC_BUTTON_TRASH_CLEAN,91,27,37,14
+    CONTROL         "真的删",IDC_CHECK_DELETE_TRASH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,50,30,40,10
+    PUSHBUTTON      "下载字幕",IDC_BUTTON_DLSUB,7,27,38,14
+END
+
+IDD_FILETYPE DIALOGEX 0, 0, 418, 311
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置索引的文件类型"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,303,290,50,14
+    PUSHBUTTON      "取消",IDCANCEL,361,290,50,14
+    CONTROL         "视频全选",IDC_CHECK_VIDEO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,48,10
+    CONTROL         "List1",IDC_LIST_VIDEO,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,19,77,229
+    CONTROL         "音频全选",IDC_CHECK_MUSIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,95,7,48,10
+    CONTROL         "List1",IDC_LIST_MUSIC,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,95,19,77,229
+    CONTROL         "字幕全选",IDC_CHECK_SUB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,182,7,48,10
+    CONTROL         "List1",IDC_LIST_SUB,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,182,19,77,229
+    CONTROL         "其他全选",IDC_CHECK_OTHER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,269,7,48,10
+    CONTROL         "List1",IDC_LIST_OTHER,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,269,19,77,229
+    EDITTEXT        IDC_EDIT_NEW,353,129,49,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_NEW,353,111,49,80,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "新增",IDC_BUTTON_NEW,354,150,50,14
+    LTEXT           "新增后缀",IDC_STATIC,353,97,33,8
+    PUSHBUTTON      "恢复默认",IDC_BUTTON_REBUILD,372,7,39,14
+    CONTROL         "小于",IDC_CHECK_NOSCAN_VIDEO_MIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,269,30,10
+    EDITTEXT        IDC_EDIT_NOSCAN_VIDEO_MIN,52,267,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "MB不扫描",IDC_STATIC,97,271,33,8
+    CONTROL         "大于",IDC_CHECK_NOSCAN_VIDEO_MAX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,285,29,10
+    LTEXT           "MB不扫描",IDC_STATIC,97,287,33,8
+    GROUPBOX        "视频",IDC_STATIC,7,255,133,48
+    CONTROL         "小于",IDC_CHECK_NOSCAN_AUDIO_MIN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,162,270,32,10
+    EDITTEXT        IDC_EDIT_NOSCAN_AUDIO_MIN,201,268,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "MB不扫描",IDC_STATIC,246,272,33,8
+    CONTROL         "大于",IDC_CHECK_NOSCAN_AUDIO_MAX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,162,286,32,10
+    EDITTEXT        IDC_EDIT_NOSCAN_AUDIO_MAX,201,284,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "MB不扫描",IDC_STATIC,246,288,33,8
+    GROUPBOX        "音频",IDC_STATIC,154,256,133,48
+    EDITTEXT        IDC_EDIT_NOSCAN_VIDEO_MAX,52,283,40,14,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+IDD_HDD DIALOGEX 0, 0, 396, 361
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "磁盘表"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,278,340,50,14
+    PUSHBUTTON      "取消",IDCANCEL,339,340,50,14
+    CONTROL         "扫描 全选",IDC_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,7,52,10
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,19,382,174
+    LTEXT           "总容量:",IDC_STATIC_INFO,261,8,128,8
+    CONTROL         "扫描目录 全选",IDC_CHECK_DIR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,197,68,10
+    CONTROL         "",IDC_LIST_DIR,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,209,382,127
+    PUSHBUTTON      "新增目录",IDC_BUTTON_ADDDIR,7,340,50,14
+    PUSHBUTTON      "删除目录",IDC_BUTTON_DELDIR,167,340,37,14
+    PUSHBUTTON      "清",IDC_BUTTON_CLEAN,376,194,13,14
+    LTEXT           "分区与其子目录只能任选一项",IDC_STATIC,148,197,105,8
+    PUSHBUTTON      "新增共享文件夹",IDC_BUTTON_ADD_SAMBA,63,340,65,14
+END
+
+IDD_HDD_DELETE DIALOGEX 0, 0, 386, 251
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "删除索引"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "删除索引",IDOK,7,230,50,13
+    PUSHBUTTON      "取消",IDCANCEL,329,230,50,13
+    CONTROL         "删除 全选",IDC_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,9,52,9
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,22,372,203
+    PUSHBUTTON      "删除重复文件索引",IDC_BUTTON_DELETE_DOUBLE,227,7,70,14
+    PUSHBUTTON      "重建重复文件索引",IDC_BUTTON_REBUILD_DOUBLE,309,7,70,14
+END
+
+IDD_YYETS DIALOGEX 0, 0, 657, 452
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "人人资源"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    CONTROL         "全选",IDC_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,27,36,9
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,45,344,203
+    EDITTEXT        IDC_EDIT_SREACH,7,7,269,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "搜索",IDC_BUTTON_FIND,287,7,50,14
+    LTEXT           "",IDC_STATIC_INFO,7,265,215,8
+    PUSHBUTTON      "<<",IDC_BUTTON_FIRST,289,263,12,14
+    PUSHBUTTON      "<",IDC_BUTTON_PREVIOUS,315,263,12,14
+    PUSHBUTTON      ">",IDC_BUTTON_NEXT,341,263,12,14
+    PUSHBUTTON      ">>",IDC_BUTTON_LAST,367,263,12,14
+    EDITTEXT        IDC_EDIT_PAGE,415,263,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "第",IDC_STATIC_DI,403,265,9,8
+    PUSHBUTTON      ">",IDC_BUTTON_JUMP,455,261,12,14
+    LTEXT           "页",IDC_STATIC_YE,473,265,9,8
+    PUSHBUTTON      "复制 ED2K",IDC_BUTTON_ED2K,143,24,63,14
+    PUSHBUTTON      "复制 磁力链接",IDC_BUTTON_MAGNET,74,24,63,14
+    PUSHBUTTON      "复制网盘",IDC_BUTTON_WANPAN,211,24,63,14
+END
+
+IDD_ADD_ED2K DIALOGEX 0, 0, 249, 161
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "增加ED2K数据库"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "导入",IDOK,110,140,50,14
+    PUSHBUTTON      "取消",IDCANCEL,169,140,50,14
+    EDITTEXT        IDC_EDIT_TXT,51,7,130,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览",IDC_BUTTON_TXT,189,7,50,14
+    EDITTEXT        IDC_EDIT_DB,50,50,131,14,ES_AUTOHSCROLL
+    LTEXT           "文本路径",IDC_STATIC,7,9,33,8
+    LTEXT           "数据库路径",IDC_STATIC,7,52,41,8
+    LTEXT           "信息",IDC_STATIC_INFO,7,74,223,55
+    LTEXT           "编码",IDC_STATIC,7,30,17,8
+    COMBOBOX        IDC_COMBO_ENCODE,43,29,48,81,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_VIEW_ED2K DIALOGEX 0, 0, 648, 417
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "ED2K库"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    CONTROL         "全选",IDC_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,44,36,9
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,62,344,203
+    EDITTEXT        IDC_EDIT_SREACH,7,24,269,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "搜索",IDC_BUTTON_FIND,287,24,50,14
+    LTEXT           "",IDC_STATIC_INFO,7,273,215,8
+    PUSHBUTTON      "<<",IDC_BUTTON_FIRST,289,271,12,14
+    PUSHBUTTON      "<",IDC_BUTTON_PREVIOUS,315,271,12,14
+    PUSHBUTTON      ">",IDC_BUTTON_NEXT,341,271,12,14
+    PUSHBUTTON      ">>",IDC_BUTTON_LAST,367,271,12,14
+    EDITTEXT        IDC_EDIT_PAGE,415,271,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "第",IDC_STATIC_DI,403,273,9,8
+    PUSHBUTTON      ">",IDC_BUTTON_JUMP,457,271,12,14
+    LTEXT           "页",IDC_STATIC_YE,475,275,9,8
+    COMBOBOX        IDC_COMBO_LIB,55,7,145,94,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "可用的库",IDC_STATIC,8,11,33,8
+    PUSHBUTTON      "复制 ED2K",IDC_BUTTON_ED2K,50,41,63,14
+END
+
+IDD_SET DIALOGEX 0, 0, 363, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "系统设置"
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,180,50,14
+    PUSHBUTTON      "取消",IDCANCEL,69,180,50,14
+    CONTROL         "网络代理",IDC_CHECK_NET_PROXY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,16,48,10
+    EDITTEXT        IDC_EDIT_NET_PROXY,39,33,167,14,ES_AUTOHSCROLL
+    CONTROL         "只下一个",IDC_CHECK_SVSUB_ONLEYONE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,88,48,10
+    CONTROL         "只下中文",IDC_CHECK_SVSUB_ONLYCHN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,102,48,10
+    GROUPBOX        "射手 批量下字幕",IDC_STATIC,7,74,84,47
+    LTEXT           "IP:Port",IDC_STATIC,7,35,29,8
+    CONTROL         "字幕来源：射手网",IDC_CHECK_SUB_SV,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,54,80,10
+    LTEXT           "a",IDC_STATIC_INFO,102,53,254,121
+    CONTROL         "建立含有媒体信息的索引(较慢)",IDC_CHECK_MEDIAINFO,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,7,135,80,26
+END
+
+IDD_MEDIA_INFO DIALOGEX 0, 0, 412, 379
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "媒体编码信息"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT,7,7,398,347,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "复制全部",IDC_BUTTON_COPY,342,358,63,14
+END
+
+IDD_RENAME DIALOGEX 0, 0, 316, 45
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "重命名"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,205,24,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,259,24,50,14
+    EDITTEXT        IDC_EDIT,7,7,302,13,ES_AUTOHSCROLL
+END
+
+IDD_SUBLIST DIALOGEX 0, 0, 454, 205
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "在线字幕查找"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "下载",IDOK,397,184,50,14
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,25,440,156
+    EDITTEXT        IDC_EDIT,7,7,389,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "查找",IDC_FIND,411,7,36,14
+    LTEXT           "",IDC_STATIC_INFO,7,190,208,8
+END
+
+IDD_SOAP DIALOGEX 0, 0, 605, 414
+STYLE DS_SETFONT | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "测试"
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    CONTROL         "全选",IDC_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,25,36,9
+    CONTROL         "",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,42,344,188
+    EDITTEXT        IDC_EDIT_SREACH,7,7,269,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "搜索",IDC_BUTTON_FIND,287,7,50,13
+    LTEXT           "",IDC_STATIC_INFO,7,245,215,8
+    PUSHBUTTON      "<<",IDC_BUTTON_FIRST,289,243,12,13
+    PUSHBUTTON      "<",IDC_BUTTON_PREVIOUS,315,243,12,13
+    PUSHBUTTON      ">",IDC_BUTTON_NEXT,341,243,12,13
+    PUSHBUTTON      ">>",IDC_BUTTON_LAST,367,243,12,13
+    EDITTEXT        IDC_EDIT_PAGE,415,243,40,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "第",IDC_STATIC_DI,403,245,9,8
+    PUSHBUTTON      ">",IDC_BUTTON_JUMP,455,241,12,13
+    LTEXT           "页",IDC_STATIC_YE,473,245,9,8
+    PUSHBUTTON      "复制 ED2K",IDC_BUTTON_ED2K,53,23,63,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "zogvm Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "zogvm"
+            VALUE "LegalCopyright", "版权所有 (C) 2015"
+            VALUE "OriginalFilename", "zogvm.EXE"
+            VALUE "ProductName", "zogvm 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ZOGVM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 529
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 366
+    END
+
+    IDD_FILETYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 411
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 304
+    END
+
+    IDD_HDD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 389
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 354
+    END
+
+    IDD_HDD_DELETE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 379
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+    END
+
+    IDD_YYETS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 650
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 445
+    END
+
+    IDD_ADD_ED2K, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_VIEW_ED2K, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 641
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 410
+    END
+
+    IDD_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 356
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_MEDIA_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 405
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 372
+    END
+
+    IDD_RENAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 38
+    END
+
+    IDD_SUBLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 447
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_SOAP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 598
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 407
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "索引"
+    BEGIN
+        MENUITEM "文件类型",                        ID_MENUITEM_SET_TYPE
+        MENUITEM "磁盘表",                         ID_MENUITEM_SET_HDD
+        MENUITEM "删除索引",                        ID_HDD_DELETE
+    END
+    POPUP "扩展"
+    BEGIN
+        MENUITEM "人人资源",                        ID_YYETS
+        MENUITEM "ed2k库",                       ID_VIEW_ED2K
+    END
+    POPUP "工具"
+    BEGIN
+        MENUITEM "生成ED2K库",                     ID_ADD_ED2K
+        MENUITEM "测试",                          ID_SOAP
+    END
+    POPUP "设置"
+    BEGIN
+        MENUITEM "系统设置",                        ID_SYSTEMSET
+    END
+END
+
+IDR_MENU_R MENU 
+BEGIN
+    POPUP "."
+    BEGIN
+        MENUITEM "打开所在文件夹",                     ID_MENU_OPENDIR
+        MENUITEM "播放",                          ID_MENU_OPEN
+        MENUITEM "下载中文字幕",                      ID_MENU_SUB_CHN
+        MENUITEM "下载英文字幕",                      ID_MENU_SUB_ENG
+        MENUITEM "下载中英字幕",                      ID_MENU_SUB_CHNENG
+        MENUITEM "在线查找字幕",                      ID_MENU_SUB_XUNLEI
+        MENUITEM "媒体编码信息",                      ID_MENU_INFO
+        MENUITEM "重命名",                         ID_MENU_RENAME
+        MENUITEM "删除到回收站",                      ID_MENU_DELETE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FILETYPE DLGINIT
+BEGIN
+    IDC_COMBO_NEW, 0x403, 5, 0
+0xe4c6, 0xfbcb, "\000" 
+    IDC_COMBO_NEW, 0x403, 5, 0
+0xd3ca, 0xb5c6, "\000" 
+    IDC_COMBO_NEW, 0x403, 5, 0
+0xf4d2, 0xb5c6, "\000" 
+    IDC_COMBO_NEW, 0x403, 5, 0
+0xd6d7, 0xbbc4, "\000" 
+    0
+END
+
+IDD_ADD_ED2K DLGINIT
+BEGIN
+    IDC_COMBO_ENCODE, 0x403, 5, 0
+0x4e41, 0x4953, "\000" 
+    IDC_COMBO_ENCODE, 0x403, 5, 0
+0x5455, 0x3846, "\000" 
+    0
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\zogvm.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
