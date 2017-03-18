@@ -1,15 +1,15 @@
-###官方发布点   https://github.com/zogvm/zogvm
-###网盘    http://pan.baidu.com/s/1ge29DAV
-###网盘    https://yunpan.cn/crzUp3VRtG3vA  访问码9b54
-###对下一代版本的建议，QQ群：193585959
+### 官方发布点   https://github.com/zogvm/zogvm
+### 网盘    http://pan.baidu.com/s/1ge29DAV
+### 网盘    https://yunpan.cn/crzUp3VRtG3vA  访问码9b54
+### 对下一代版本的建议，QQ群：193585959
 
-#zogvm 1.22版本已开源
+# zogvm 1.22版本已开源
 
 * 仅支持 XP,WIN7，WIN8，WIN10
 * 如果您有超多硬盘以及超多的音视频
 * 如果您患有下载综合征，音视频囤积症。该软件就是您的福音！
 
-##声明
+## 声明
 * 软件 **无毒无广告无后台，也不插入任何的软件**。如果你下载的不是这样的，请务必小心。
 * 软件**免费，也不接受任何捐款**，除非我特别特别的困难了。当然，有工作可以介绍给我，不爱加班。谢谢~
 * 把软件嵌广告，流氓软件，收费，任意修改等行为。俺从内心深处鄙视你们,宁愿在三线城市工作也不去你们公司。
@@ -20,7 +20,7 @@
 ## 关于界面设计
 很多人觉得丑，如果你是美工，就快来帮帮我吧。。不然就别BB了。
 
-##本地音视频管理系统 zogvm 特性(2.08)
+## 本地音视频管理系统 zogvm 特性(2.08)
 
 * 1.可以看
     * **被拔掉**的硬盘 U盘 光盘 剩余空间
@@ -41,13 +41,13 @@
 * 15.支持手动，自动**标注**；设置**已看/未看**
 * 16.支持**豆瓣海报**
 
-####警告：该版本（2.X）的索引数据（zogvm.db）与扩展库，将不向下（1.X）兼容，请勿互相迁移。
+#### 警告：该版本（2.X）的索引数据（zogvm.db）与扩展库，将不向下（1.X）兼容，请勿互相迁移。
 
-###最初的想法:
+### 最初的想法:
 * 本软件于2015.1.20日开工编写：
 * 初衷是为了自己以及群友方便的管理数量众多片源。扩展资源为额外的附属，均为网络获取。一切皆缘，请勿求。
 
-###扩展资源 ：
+### 扩展资源 ：
 * 最终版本2.07版扩展库（**停止更新**，见 https://github.com/zogvm/zogcm ）
 * 人人更新到2016.03.19日 第97995号
 * TW版国家地理更新到2016.03.06日
@@ -57,7 +57,7 @@
 * MVG更新到2015.1.7日
 
 
-##2.0新版
+## 2.0新版
 
  ![image](https://raw.githubusercontent.com/zogvm/zogvm/master/zogvm2.0.jpg)
  ![image](https://raw.githubusercontent.com/zogvm/zogvm/master/zogvm2.03.JPG)
@@ -65,7 +65,7 @@
  ![image](https://github.com/zogvm/zogvm/raw/master/zogvm2/%E8%AF%B4%E6%98%8E/%E6%A3%80%E7%B4%A2.PNG)
  ![image](https://github.com/zogvm/zogvm/raw/master/zogvm2/%E8%AF%B4%E6%98%8E/%E6%89%A9%E5%B1%95%E5%BA%93%E4%B8%8E%E8%AE%BE%E7%BD%AE.PNG)
 
-##1.22 最终版
+## 1.22 最终版
 ![image](https://github.com/zogvm/zogvm/raw/master/zogvm1.22/%E8%AF%B4%E6%98%8E/zogvm%E8%AF%B4%E6%98%8E-%E7%AC%AC1%E6%AD%A5-%E5%BB%BA%E7%B4%A2%E5%BC%95.PNG)
 ![image](https://github.com/zogvm/zogvm/raw/master/zogvm1.22/%E8%AF%B4%E6%98%8E/zogvm%E8%AF%B4%E6%98%8E-%E7%AC%AC2%E6%AD%A5-%E6%A3%80%E7%B4%A2%E4%B8%8E%E5%AF%BC%E5%87%BA.PNG)
 ![image](https://github.com/zogvm/zogvm/raw/master/zogvm1.22/%E8%AF%B4%E6%98%8E/zogvm%E8%AF%B4%E6%98%8E-%E7%AC%AC3%E6%AD%A5-%E4%B8%8B%E5%AD%97%E5%B9%95%E4%B8%8E%E6%89%A9%E5%B1%95%E5%BA%93.PNG)
