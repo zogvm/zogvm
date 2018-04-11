@@ -2,8 +2,7 @@
 ### 由于zogvm2在N个版本以后加入爬豆瓣和IMDB功能以后，容易崩溃。不建议大家使用。
 ### zogvm3 预计于2019年发布。有生之年系列...
 ### 官方发布点   https://github.com/zogvm/zogvm
-### 网盘    http://pan.baidu.com/s/1ge29DAV
-### 网盘    https://yunpan.cn/crzUp3VRtG3vA  访问码9b54
+
 ### 对下一代版本的建议，QQ群：193585959
 
 # zogvm 1.22版本已开源
